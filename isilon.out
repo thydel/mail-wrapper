@@ -1,0 +1,10 @@
+HIDDEN: 1536 "^# rsync/[\da-f]{3} :", 1536 "^# blog/[\da-f]{3} :", 1536 "^# date/[\da-f]{3} :"; flxblog backup bck01
+test -f /var/local/flxblog/.rsync && rm -f /var/local/flxblog/.stone /var/local/flxblog/.rsync
+date; make --warn-undefined-variables --no-builtin-rules -f /usr/local/bin/flxblog.mk -C /var/local/flxblog SEEN=1 -j 24 -l 16  rsync; date
+Thu Sep  3 04:30:53 CEST 2009
+make[1]: Entering directory `/var/local/flxblog'
+touch /var/local/flxblog/.stone
+HIDDEN 4608
+touch .rsync
+make[1]: Leaving directory `/var/local/flxblog'
+Thu Sep  3 09:23:27 CEST 2009

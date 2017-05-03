@@ -1,0 +1,3 @@
+WARNING: 1 " - WARNING [-\w]+ disabled$"; flxbdb backup mogdb2-ng on bck04
+2009-09-07 @ 17:07:51 - bck04.prodin.beohf.fr - Launch './centralized-backup mogdb2-ng'
+2009-09-07 @ 17:07:52 - bck04.prodin.beohf.fr - WARNING MOGDB2-NG disabled
